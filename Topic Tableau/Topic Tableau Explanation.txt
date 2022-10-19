@@ -1,0 +1,3 @@
+Create a calculated field in the the tableau and apply the following Formula as given Below
+RIGHT(STR('0000000')+ [Id],7)
+This Formula will add 0 in preffix and if the id reach 7 digit the paramter stop the addition of zero in the preffix
